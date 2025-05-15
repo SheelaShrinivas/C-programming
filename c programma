@@ -43,3 +43,27 @@ Line 5: return 0 ends the main() function.
 
 Line 6: Do not forget to add the closing curly bracket } to actually end the main function.
 
+What is Statements
+A computer program is a list of "instructions" to be "executed" by a computer.
+In a programming language, these programming instructions are called statements.
+The following statement "instructs" the compiler to print the text "content(Hello sheela)" to the screen:
+
+what is variables in c? 
+Variables are containers for storing data values, like numbers and characters.
+
+In C, there are different types of variables (defined with different keywords), for example:
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Characters are surrounded by single quotes
+
+Declaring (Creating) Variables
+To create a variable, specify the type and assign it a value:
+Syntax
+type variableName = value;
+ex: Create a variable called myNum of type int and assign the value 15 to it:
+int myNum = 15;
+
+Format Specifiers
+Format specifiers are used together with the printf() function to tell the compiler what type of data the variable is storing. It is basically a placeholder for the variable value.
+A format specifier starts with a percentage sign %, followed by a character.
+For example, to output the value of an int variable, use the format specifier %d surrounded by double quotes (""), inside the printf() function:
